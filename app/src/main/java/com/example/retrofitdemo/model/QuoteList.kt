@@ -1,5 +1,7 @@
 package com.example.retrofitdemo.model
-
+/*
+QuoteList is JSON body structure and variable of json response
+ */
 data class QuoteList(
     val count: Int,
     val lastItemIndex: Int,
